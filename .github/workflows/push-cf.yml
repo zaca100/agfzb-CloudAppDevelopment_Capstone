@@ -5,11 +5,12 @@ on: workflow_dispatch
 # Environment variables available to all jobs and steps in this workflow
 env:
   IBM_CLOUD_REGION: us-south
-  IBM_CLOUD_GROUP: default
+  IBM_CLOUD_GROUP: zaca10@gmail.com
   IBM_CLOUD_SPACE: zaca10@gmail.com
   IBM_CLOUD_ORG: zaca10@gmail.com
   MANIFEST_NAME: manifest.yml
-  IBM_CLOUD_API: ${{secrets.IBM_CLOUD_API_KEY}}
+  #IBM_CLOUD_API: ${{secrets.IBM_CLOUD_API_KEY}}
+  IBM_CLOUD_API: c_k-q4KUcLUvV7ksCvPTpJ6boZDrqNyGeQTOb0VSSFZn
 
 defaults:
   run:
