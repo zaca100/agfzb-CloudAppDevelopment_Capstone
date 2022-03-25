@@ -1,11 +1,11 @@
 applications:
   - name: dealer-review
     routes:
-      - route: flaviodiniz.us-south.cf.appdomain.cloud
+      - route: fladin.us-south.cf.appdomain.cloud
     memory: 128M
     buildpack: python_buildpack
   - name: dealer-review-nginx
     routes:
-      - route: flaviodiniz.us-south.cf.appdomain.cloud/static
+      - route: fladin.us-south.cf.appdomain.cloud/static
     memory: 128M
     buildpack: staticfile_buildpack
